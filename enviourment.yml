@@ -1,0 +1,14 @@
+name: snas
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pytorch>=0.4.1
+  - conda:
+    - cuda>=9.2
+    - torchvision
+    - termcolor
+    - graphviz
+    - matplotlib
